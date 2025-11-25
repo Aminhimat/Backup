@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
+    
+    <!-- PWA Meta Tags for Mobile Browser Experience -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="GuardHQ">
+    <meta name="theme-color" content="#1e40af">
+    
+    <title>GuardHQ Mobile – Security Report App</title>
+    <meta name="description" content="GuardHQ mobile app for security guards: submit reports directly to admin with GPS tracking and camera." />
+    <link rel="canonical" href="https://c930f666-6e00-4b59-8c57-49bac8d85aa0.lovableproject.com/" />
+    <meta name="author" content="GuardHQ" />
+    <link rel="icon" href="/icon.png" type="image/png" />
+    
+    <!-- Performance Optimizations -->
+    <link rel="dns-prefetch" href="https://dzxkvzdwapaoeewqiyyq.supabase.co">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preload" href="/icon.png" as="image">
+    
+    <!-- PWA Icons -->
+    <link rel="apple-touch-icon" href="/icon.png">
+    <link rel="manifest" href="/manifest.json">
+
+    <meta property="og:title" content="GuardHQ – Guard Patrol App" />
+    <meta property="og:description" content="GuardHQ guard patrol app for teams: shifts, GPS tracking, and incident reports." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/icon.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@GuardHQ" />
+    <meta name="twitter:image" content="/icon.png" />
+    <script type="module" crossorigin src="/assets/main-DSli5rmY.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/react-vendor-DlXyIlAb.js">
+    <link rel="modulepreload" crossorigin href="/assets/ui-vendor-CMb7-MUY.js">
+    <link rel="modulepreload" crossorigin href="/assets/supabase-BrEQddrj.js">
+    <link rel="modulepreload" crossorigin href="/assets/Preloader-CcsUAh1Y.js">
+    <link rel="stylesheet" crossorigin href="/assets/Preloader-CFrVHLsu.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+    
+    <!-- Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(reg => console.log('Service Worker registered'))
+            .catch(err => console.log('Service Worker registration failed:', err));
+        });
+      }
+    </script>
+  </body>
+</html>
